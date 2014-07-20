@@ -1,0 +1,25 @@
+body {
+	font-family: "Open Sans", helvetica, sans-serif;
+}
+
+.page1 {
+	text-align: center;
+}
+
+.title {
+	margin-top: 90px;
+	font-size: 80px;
+}
+
+#countbox1 {
+	font-size: 45px;
+	margin-top: 220px;
+	text-transform: uppercase;
+	letter-spacing: 0.15em;
+}
+
+.tagline {
+	margin-top: 320px;
+	font-size: 30px;
+	letter-spacing: 0.15em;
+}
