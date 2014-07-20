@@ -6,12 +6,6 @@ body {
 	text-align: center;
 	width: 100%
 }
-.page2 {
-	position: relative;
-	text-align: center;
-	background-color: #4E76FF;
-	height: 600px;
-}
 
 .dogevideo {
 	position: absolute;
@@ -35,15 +29,19 @@ body {
 	top: 35%;
 	left: 50%;
 	width: 1130px;
+	height: 500px;
 	margin-left: -565px; /* half of width but negative */
 	margin-top: -171.5px;
+	padding: -30px;
 	position: absolute;
+	color: black;
+	background:#bdbdbd;
+	opacity:.4;
 	z-index: 1;
 }
 
 
 .title {
-	color: #cccccc;
 	margin-top: 120px;
 	font-size: 80px;
 	text-transform: uppercase;
@@ -51,7 +49,6 @@ body {
 }
 
 #countbox1 {
-	color: #191919;
 	font-size: 45px;
 	margin-top: 40px;
 	text-transform: uppercase;
@@ -59,7 +56,6 @@ body {
 }
 
 .tagline {
-	color: #191919;
 	margin-top: 50px;
 	font-size: 30px;
 	letter-spacing: 0.15em;
@@ -73,6 +69,7 @@ body {
 	width: 200px;
 	height: 350px;
 	background-size: cover;
+	z-index: 1000;
 }
 .bobbing {
     position: fixed;
@@ -121,13 +118,42 @@ body {
    }
 
 }
-
-
+.page2 {
+	text-align: center;
+	background-color: #4E76FF;
+	height: 100%;
+	width: 100%
+}
 
 .summary {
 	margin: auto 160px;
 	font-size: 1.4rem;
 	color: white;
+}
+
+.page3 {
+	background-color: F1690A;
+	height: 100%;
+	width: 100%;
+}
+
+.github {
+	font-size: 40px;
+	float: left;
+/*	text-decoration: none;*/
+	color: white;
+	margin-left: 70px;
+	margin-top: 55px;
+}
+
+.github:hover {
+	font-size: 40px;
+	float: left;
+	color: #696969;
+}
+
+.email {
+	float: right;
 }
 
 .footer {
