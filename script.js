@@ -1,17 +1,3 @@
- // // BG VIDEO
- // var index = 1,
- //      playlist = ['doge.mp4'],
- //      video = document.getElementById('dogevideo');
-
- //  video.addEventListener('ended', rotate_video, false);
-
- //  function rotate_video() {
- //    video.setAttribute('src', playlist[index]);
- //    video.load();
- //    index++;
- //    if (index >= playlist.length) { index = 0; }
-  // }
-
 // NOTE: the month entered must be one less than current month. ie; 0=January, 11=December
 // NOTE: the hour is in 24 hour format. 0=12am, 15=3pm etc
 // format: dateFuture1 = new Date(year,month-1,day,hour,min,sec)
