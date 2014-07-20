@@ -32,12 +32,16 @@ body {
 	height: 500px;
 	margin-left: -565px; /* half of width but negative */
 	margin-top: -171.5px;
-	padding: -30px;
 	position: absolute;
 	color: black;
-	background:#bdbdbd;
-	opacity:.4;
 	z-index: 1;
+}
+
+.textheader {
+	color: black;
+	background:#bdbdbd;
+	opacity: 0.4;
+	height: 365px;
 }
 
 
