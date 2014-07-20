@@ -28,15 +28,19 @@ body {
 	top: 35%;
 	left: 50%;
 	width: 1130px;
+	height: 500px;
 	margin-left: -565px; /* half of width but negative */
 	margin-top: -171.5px;
+	padding: -30px;
 	position: absolute;
+	color: black;
+	background:#bdbdbd;
+	opacity:.4;
 	z-index: 1;
 }
 
 
 .title {
-	color: #cccccc;
 	margin-top: 120px;
 	font-size: 80px;
 	text-transform: uppercase;
@@ -44,7 +48,6 @@ body {
 }
 
 #countbox1 {
-	color: #191919;
 	font-size: 45px;
 	margin-top: 40px;
 	text-transform: uppercase;
@@ -52,7 +55,6 @@ body {
 }
 
 .tagline {
-	color: #191919;
 	margin-top: 50px;
 	font-size: 30px;
 	letter-spacing: 0.15em;
