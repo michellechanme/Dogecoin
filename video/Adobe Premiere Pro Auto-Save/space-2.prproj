@@ -591,7 +591,7 @@
 				<AM.PJShowWellState>0</AM.PJShowWellState>
 				<MZ.Project.GUID>950ee7bc-10fa-40ff-ab10-ed42d19bf5ac</MZ.Project.GUID>
 				<MZ.Project.ApplicationID>Pro</MZ.Project.ApplicationID>
-				<MZ.BuildVersion.Modified>002 (MC: 218798) - Sat Jul 19 16:38:44 2014</MZ.BuildVersion.Modified>
+				<MZ.BuildVersion.Modified>002 (MC: 218798) - Sat Jul 19 18:37:42 2014</MZ.BuildVersion.Modified>
 				<MZ.BuildVersion.Created>002 (MC: 218798) - Sat Jul 19 15:58:29 2014</MZ.BuildVersion.Created>
 				<project.settings.lastknowngoodprojectpath>/Users/chrisgervang/Dogecoin/video/Adobe Premiere Pro Auto-Save/space-2.prproj</project.settings.lastknowngoodprojectpath>
 				<MZ.Project.WorkspaceName>Editing</MZ.Project.WorkspaceName>
@@ -2287,7 +2287,7 @@
 				<TL.SQHideShyTracks>0</TL.SQHideShyTracks>
 				<TL.SQHeaderWidth>164</TL.SQHeaderWidth>
 				<TL.SQTimePerPixel>2.394576271186440674654250</TL.SQTimePerPixel>
-				<MZ.EditLine>52134243840000</MZ.EditLine>
+				<MZ.EditLine>27372764160000</MZ.EditLine>
 				<MZ.Sequence.PreviewFrameSizeHeight>480</MZ.Sequence.PreviewFrameSizeHeight>
 				<MZ.Sequence.PreviewFrameSizeWidth>853</MZ.Sequence.PreviewFrameSizeWidth>
 				<MZ.Sequence.AudioTimeDisplayFormat>200</MZ.Sequence.AudioTimeDisplayFormat>
