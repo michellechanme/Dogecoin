@@ -1,29 +1,6 @@
 body {
 	font-family: "Open Sans", helvetica, sans-serif;
 }
-
-.ballon {
-	left: 30px;
-	top: 150px;
-	background: url(ballon.png) 50% 50% no-repeat;
-	width: 200px;
-	height: 300px;
-	background-size: cover;
-}
-
-.bobbing {
-    position: absolute;
-    
-    animation-name: bobbingAnim;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-play-state: running;
-    -webkit-animation-name: bobbingAnim;
-    -webkit-animation-duration: 3s;
-    -webkit-animation-iteration-count: infinite;
-    -webkit-animation-play-state: running;
-}
-
 .page1 {
 	text-align: center;
 	width: 100%
@@ -39,7 +16,7 @@ body {
 	z-index: 0;
 }
 
-#pageheader {
+.pageheader {
 	text-align: center;
 	top: 20%;
 	left: 50%;
@@ -49,6 +26,7 @@ body {
 	position: absolute;
 	z-index: 1;
 }
+
 
 .title {
 	color: #cccccc;
@@ -72,6 +50,38 @@ body {
 	letter-spacing: 0.15em;
 	text-transform: uppercase;
 }
+
+.ballon-contain {
+	width: 1000px;
+	height: 1750px;
+	z-index: 3000;
+}
+
+.ballon {
+	left: 10%;
+	top: 15%;
+	background: url(ballon.png) 50% 50% no-repeat;
+	width: 200px;
+	height: 350px;
+	background-size: cover;
+}
+
+.bobbing {
+    position: absolute;
+    
+    animation-name: bobbingAnim;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    -webkit-animation-name: bobbingAnim;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+}
+
+
+
+
 
 @keyframes bobbingAnim {
    0% {
