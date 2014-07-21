@@ -137,6 +137,7 @@ body {
 .button {
 	width: 70px;
 	height: 35px;
+	margin-left: -35px; /* half of width but negative */
 }
 
 .page2 {
