@@ -51,32 +51,19 @@ body {
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 	padding-top: 20px;
+	color: #1976FF;
 }
 
-.title:hover {
+/*.title:hover {
 	margin-top: 120px;
 	font-size: 80px;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 	padding-top: 20px;
 	color: #4E76FF;
-}
+}*/
 
 .countdown {
-	text-align: center;
-	opacity: 0.90;
-	top: 78%;
-	left: 50%;
-	width: 1130px;
-	height: 500px;
-	margin-left: -565px; /* half of width but negative */ 
-	margin-top: -171.5px;
-	position: absolute;
-	color: black;
-	z-index: 1;
-}
-
-.countdown:hover {
 	text-align: center;
 	opacity: 0.90;
 	top: 78%;
@@ -89,6 +76,20 @@ body {
 	color: #F1690A;
 	z-index: 1;
 }
+
+/*.countdown:hover {
+	text-align: center;
+	opacity: 0.90;
+	top: 78%;
+	left: 50%;
+	width: 1130px;
+	height: 500px;
+	margin-left: -565px;*/ /* half of width but negative  
+	margin-top: -171.5px;
+	position: absolute;
+	color: #F1690A;
+	z-index: 1;
+}*/
 
 #countbox1 {
 	font-size: 45px;
@@ -211,7 +212,7 @@ body {
 	text-decoration: none;
 	color: #696969;
 	margin-left: 240px;
-	margin-top: 47px;
+	margin-top: 37px;
 }
 
 .github:hover {
@@ -225,6 +226,6 @@ body {
 }
 
 .footer {
-	height: 125px;
+	height: 100px;
 	background-color: #463E3F;
 }
