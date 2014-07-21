@@ -1,5 +1,5 @@
 $(function() {
-	$('.scroll-first').click(function(e) {
+	$('.scrollfirst').click(function(e) {
 		$.scrollTo('.page2', 1000);
 	});
 
