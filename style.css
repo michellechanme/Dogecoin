@@ -68,7 +68,7 @@ body {
 }
 
 .ballon {
-	left: 8%;
+	left: 6%;
 	top: 10%;
 	background: url(ballon.png) 50% 50% no-repeat;
 	width: 200px;
