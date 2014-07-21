@@ -1,15 +1,15 @@
 $(function() {
 	$('.scroll-first').click(function(e) {
-		$.scrollTo('.first', 1000);
+		$.scrollTo('.page2', 1000);
 	});
 
 	$('.scroll-second').click(function(e) {
-		$.scrollTo('.second', 1500);
+		$.scrollTo('.page3', 1500);
 	});
 
-	$('.scroll-third').click(function(e) {
-		$.scrollTo('.third', 1500);
-	});
+	// $('.scroll-third').click(function(e) {
+	// 	$.scrollTo('.third', 1500);
+	// });
 
 });
 
