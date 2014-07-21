@@ -3,11 +3,11 @@ $(function() {
 		$.scrollTo('.page2', 1000);
 	});
 
-	$('.scroll-second').click(function(e) {
+	$('.scrollsecond').click(function(e) {
 		$.scrollTo('.page3', 1500);
 	});
 
-	// $('.scroll-third').click(function(e) {
+	// $('.scrollthird').click(function(e) {
 	// 	$.scrollTo('.third', 1500);
 	// });
 
