@@ -142,18 +142,18 @@ body {
 }
 
 .github {
-	font-size: 40px;
+	font-size: 50px;
 	float: left;
 /*	text-decoration: none;*/
-	color: white;
+	color: #696969;
 	margin-left: 70px;
-	margin-top: 55px;
+	margin-top: 57px;
 }
 
 .github:hover {
-	font-size: 40px;
+	font-size: 50px;
 	float: left;
-	color: #696969;
+	color: #939393;
 }
 
 .email {
