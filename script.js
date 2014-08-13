@@ -34,11 +34,11 @@ function GetCount(ddate,iid){
 	delete dateNow;
 
 	// if time is already past
-	if(amount < 0){
+	if (amount < 0) {
 		document.getElementById(iid).innerHTML="Now!";
 	}
 	// else date is still good
-	else{
+	else {
 		days=0;hours=0;mins=0;secs=0;out="";
 
 		amount = Math.floor(amount/1000);//kill the "milliseconds" so just secs

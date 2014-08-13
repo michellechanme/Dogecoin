@@ -1,5 +1,5 @@
 body {
-	font-family: "Abel", helvetica, sans-serif;
+	font-family: "Oxygen", helvetica, sans-serif;
 }
 .page1 {
 	position: relative;
@@ -33,35 +33,26 @@ body {
 	margin-left: -565px; /* half of width but negative */
 	margin-top: -171.5px;
 	position: absolute;
-	color: black;
+	/*color: black;*/
 	z-index: 1;
 }
 
 .textheader {
-	color: black;
+	/*color: #6EA0D6;*/
 	background:#bdbdbd;
 	opacity: 0.4;
 	height: 365px;
 }
 
 
-.title {
+.titleh {
 	margin-top: 120px;
 	font-size: 80px;
 	text-transform: uppercase;
 	letter-spacing: 0.15em;
 	padding-top: 20px;
-	color: #1976FF;
+	color: #6EA0D6;
 }
-
-/*.title:hover {
-	margin-top: 120px;
-	font-size: 80px;
-	text-transform: uppercase;
-	letter-spacing: 0.15em;
-	padding-top: 20px;
-	color: #4E76FF;
-}*/
 
 .countdown {
 	text-align: center;
@@ -76,20 +67,6 @@ body {
 	color: #F1690A;
 	z-index: 1;
 }
-
-/*.countdown:hover {
-	text-align: center;
-	opacity: 0.90;
-	top: 78%;
-	left: 50%;
-	width: 1130px;
-	height: 500px;
-	margin-left: -565px;*/ /* half of width but negative  
-	margin-top: -171.5px;
-	position: absolute;
-	color: #F1690A;
-	z-index: 1;
-}*/
 
 #countbox1 {
 	font-size: 45px;
@@ -180,7 +157,8 @@ body {
 
 .page2 {
 	text-align: center;
-	background-color: #4E76FF;
+	background-color: #4682B4;
+	color: white;
 	height: 630px;
 	width: 100%
 }
@@ -194,11 +172,35 @@ body {
 	z-index: 10;
 }
 
-.summary {
+.col-md-4 {
+}
+
+.header {
+	font-size: 50px;
+	padding: 15px;
+	line-height: -6em;
+	font-weight: lighter;
+}
+
+.h1 {
+	font-weight: lighter;
+}
+
+.list {
+	font-size: 32px;
+}
+
+p {
+	color: #dbdbdb;
+	/*font-weight: lighter;*/
+	font-size: 18px;
+}
+
+/*.summary {
 	margin: auto 160px;
 	font-size: 1.4rem;
 	color: white;
-}
+}*/
 
 .page3 {
 	background-color: #F1690A;
@@ -206,26 +208,71 @@ body {
 	width: 100%;
 }
 
+.footerlist {
+	display: inline;
+}
+
 .github {
 	font-size: 30px;
-	float: left;
-	text-decoration: none;
+/*	float: left;
+*/	text-decoration: none;
 	color: #696969;
-	margin-left: 240px;
-	margin-top: 37px;
+	/*margin-left: 240px;*/
+	/*margin-top: 37px;*/
 }
 
 .github:hover {
 	font-size: 30px;
-	float: left;
+	/*float: left;*/
 	color: #939393;
+	text-decoration: none;
 }
 
 .email {
-	float: right;
+	/*float: right;*/
 }
 
 .footer {
 	height: 100px;
 	background-color: #463E3F;
 }
+
+.email {
+		color: #000000;
+		border: 1px solid #848484; 
+		-webkit-border-radius: 30px; 
+		-moz-border-radius: 30px; 
+		border-radius: 30px; 
+		outline:0; 
+		height:35px; 
+		width: 250px; 
+		padding-left:10px; 
+		padding-right:10px;
+		/*margin-left: 250px;*/
+		/*margin-top: 30px;*/
+	}
+
+.submit {
+		background-color:#4E76FF;
+		-moz-border-radius:28px;
+		-webkit-border-radius:28px;
+		border-radius:28px;
+		border:1px solid #29668f;
+		display:inline-block;
+		cursor:pointer;
+		color:#ffffff;
+		font-family:arial;
+		font-size:17px;
+		padding:7px 21px;
+		text-decoration:none;
+		/*margin-left: 475px;*/
+		/*margin-bottom: 50px;*/
+		height: 35px;
+		width: 125px;
+		position: 
+	}
+
+.submit:hover {
+		background-color:#939393;
+		color: #42537F;
+	}

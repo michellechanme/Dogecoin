@@ -1,3 +1,4 @@
+
 <html>
 
 	<head>
@@ -7,11 +8,25 @@
 
 		<link href="http://fonts.googleapis.com/css?family=Abel:400" rel="stylesheet" type="text/css">
 
-		<link href="http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,400italic,400,600italic,600,700italic,700,800italic,800" rel="stylesheet" type="text/css">
+		<link href="//fonts.googleapis.com/css?family=Oxygen:300,400,700" rel="stylesheet" type="text/css">
 
 		<link rel="stylesheet" type="text/css" href="reset.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+
+		<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+		<!-- looks good on phone, pinch to zoom -->
+		<meta name="viewport" content="width=device-width, initial-scale=1">
 		
 	</head>
 
@@ -20,7 +35,7 @@
 			<div class="vid"><video class="dogevideo" src="./doge.mp4" autoplay loop></video></div>
 			<div class="pageheader">
 				<div class="textheader">
-					<div class="title">Dogecoin Weather Balloon Launches In:</div>
+					<div class="titleh">Dogecoin Weather Balloon Launches In:</div>
 					<!-- <div id="countbox1"></div> -->
 					<!-- <div class="tagline">To the moon</div> -->
 				</div>
@@ -34,32 +49,56 @@
 		</div>
 
 		<div class="page2">
-			<ul>
-				<li></li>
-				<li></li>
-				<li></li>
-			</ul>
-			<div class="summary">Join us on a WOW adventure of doge-mazing exploration. Such sky. Such weather. We’ve built a Raspberry Pi powered weather ballon to travel up to an estimated 100,000 feet in the middle of California, and Doge is coming along for the ride!</div>
-			<br><br />
+			<header class="header">
+				<ul>
+					<li>Join us on a WOW adventure of</li>
+					<li>doge-mazing exploration!</li>
+				</ul>
+			</header>
+			<div class="container">
+				<div class="row">
 
-			<div class="summary">But this isn’t just about doge. It’s about science. This loon is purpose built to take atmospheric data and videos from near space in the name of SCIENCE. RLY COOL.</div>
+					  <div class="col-md-4">
+					  	<p class="h1">
+					  		<ul>
+					  			<li class="list">Much high.</li>
+					  			<li class="list">Such weather.</li>
+					  		</ul>
+						<img src=""><!-- [Balloon] -->
+						<p>This weather ballon to travel up to 100,000 feet in the middle of California, and Doge is coming along for the ride!</p>
+					  </div>
 
-			<div class ="scrollsecond">
-				<img class="button" src="http://static.tumblr.com/dxzjwut/IUPn91jt4/scrollalt.png"/>
+					  <div class="col-md-4">
+					  	<p class ="h1">It’s about science.</p>
+						<img src=""><!-- [Raspberry Pi] -->
+						<p>This loon is purpose built to take atmospheric data and videos from near space in the name of SCIENCE. RLY COOL.</p>
+					  </div>
+
+					  <div class="col-md-4">
+					  	<p class="h1">Why Dogecoin?</p>
+					  	<img src=""><!-- [Doge Coin] -->
+						<p>Coin such good much meaning up high to the moon. You feel?</p>
+					  </div>
+				</div>
 			</div>
+			<!-- <div class ="scrollsecond">
+				<img class="button" src="http://static.tumblr.com/dxzjwut/IUPn91jt4/scrollalt.png"/>
+			</div> -->
 		</div>
 
 		<div class="ballon bobbing image"></div>
 
-		<div class="page3">
+	<!-- 	<div class="page3">
 			<p>Photo Archive</p>
 		</div>
-
-		
+ -->		
 
 		<div class="footer">
-			<a class="github" href="https://github.com/Prinzhorn/skrollr">Github: Skollr</a>
-			<input class="email" type="email" name="Email">
+			<ul>
+				<li class="footerlist"><a class="github" href="https://github.com/Prinzhorn/skrollr">Github: Skollr</a></li>
+				<li class="footerlist"><input class="email" placeholder="Email"></li>
+				<li class="footerlist"><button class="submit">Submit</button></li>
+			</ul>
 		</div>
 
 		<div>
