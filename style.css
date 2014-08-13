@@ -199,7 +199,7 @@ body {
 p {
 	color: #dbdbdb;
 	/*font-weight: lighter;*/
-	font-size: 18px;
+	font-size: 16px;
 }
 
 /*.summary {
@@ -207,6 +207,24 @@ p {
 	font-size: 1.4rem;
 	color: white;
 }*/
+
+.airballoon {
+	height: 225px;
+	width: 150px;
+	padding: 15px;
+}
+
+.pi {
+	height: 225px;
+	width: 150px;
+	padding: 15px;
+}
+
+.doge {
+	height: 225px;
+	width: 175px;
+	padding: 15px;
+}
 
 .page3 {
 	background-color: #F1690A;
