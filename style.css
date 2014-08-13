@@ -14,6 +14,12 @@ body {
 	width: auto;
     height: 900px;
 	z-index: 0;
+	background: 
+	    linear-gradient(
+	      rgba(251, 219, 12, 0.45), 
+	      rgba(251, 219, 12, 0.45)
+	    ),
+	    url(./doge.mp4);
 }
 
 .vid {
@@ -217,6 +223,7 @@ p {
 /*	float: left;
 */	text-decoration: none;
 	color: #696969;
+	margin: auto;
 	/*margin-left: 240px;*/
 	/*margin-top: 37px;*/
 }
@@ -226,10 +233,6 @@ p {
 	/*float: left;*/
 	color: #939393;
 	text-decoration: none;
-}
-
-.email {
-	/*float: right;*/
 }
 
 .footer {
@@ -248,8 +251,7 @@ p {
 		width: 250px; 
 		padding-left:10px; 
 		padding-right:10px;
-		/*margin-left: 250px;*/
-		/*margin-top: 30px;*/
+		float: right;
 	}
 
 .submit {
@@ -269,7 +271,7 @@ p {
 		/*margin-bottom: 50px;*/
 		height: 35px;
 		width: 125px;
-		position: 
+		float: right; 
 	}
 
 .submit:hover {
